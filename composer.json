@@ -1,0 +1,36 @@
+{
+    "name": "innovation-latam/laravel-soap-totvs",
+    "version": "1.0.0",
+    "description": "Laravel soap totvs",
+    "keywords": [
+        "soap",
+        "totvs",
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Rafael Zingano",
+            "email": "rafazingano@gmail.com",
+            "homepage": "https://rafazingano.com.br"
+        }
+    ],
+    "require": {
+        "laminas/laminas-soap": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "InnovationLatam\\SoapTotvs\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "InnovationLatam\\SoapTotvs\\Providers\\SoapTotvsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
